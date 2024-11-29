@@ -1,0 +1,71 @@
+.app-container {
+  font-family: Arial, sans-serif;
+}
+
+.content {
+  padding: 70px 20px 20px;
+}
+body {
+  background-image: url('../assets/back.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow: scroll;
+}
+
+
+.form-container {
+  background-color: rgb(226, 115, 189);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  position: relative;
+}
+
+.job-card-container {
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #d86262;
+  border-radius: 8px;
+  background-color: #eb7fc0;
+  max-width: 800px;
+  width: 90%;
+}
+
+.job-card-container h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.job-card-container ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.job-card-container li {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  width: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.job-card-container h4 {
+  text-align: center;
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.job-card-container p {
+  margin: 5px 0;
+}
+

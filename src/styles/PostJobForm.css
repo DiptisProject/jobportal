@@ -1,0 +1,36 @@
+.form-container {
+  max-width: 550px;
+  margin: 0 auto;
+  padding: 20px;
+  top: 0;
+  border: 1px solid #76e15b;
+  border-radius: 40px;
+
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  
+}
+
+form input, form textarea, form select {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #da2121;
+  border-radius: 5px;
+}
+
+form button {
+  padding: 10px;
+  background-color: #11705d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #45a049;
+}

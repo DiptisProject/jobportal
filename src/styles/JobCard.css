@@ -1,0 +1,116 @@
+.job-card-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .job-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .job-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    display: grid;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .job-title {
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+
+  .apply-btn {
+    background-color: #0aa44d;  
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .apply-btn:hover {
+    background-color: #0056b3;   
+  }
+  
+  /* JobCard.css */
+.modal-content {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
+
+.modal-header {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Modal form styling */
+.modal-content {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Align form elements horizontally to the center */
+}
+
+.modal-body {
+  width: 100%;
+  display: flex;
+  justify-content: center; /* Center the form vertically */
+}
+
+.form {
+  width: 100%;
+  max-width: 500px; /* Set a max-width for the form */
+  margin: 0 auto;
+}
+
+.form-group {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align labels and inputs */
+}
+
+.form-group label {
+  width: 100%;
+  text-align: left; /* Align labels to the left */
+}
+
+.custom-input,
+.custom-select {
+  width: 100%;
+  max-width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.custom-input:focus,
+.custom-select:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  outline: none;
+}
+
+/* Adjust buttons */
+.modal-footer {
+  display: flex;
+  justify-content: flex-end; /* Align buttons to the right */
+  width: 100%;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
